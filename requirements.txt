@@ -1,0 +1,7 @@
+fivetran
+apache-airflow
+pandas
+scikit-learn
+snowflake-connector-python
+dbt-core
+dbt-snowflake
