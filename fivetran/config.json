@@ -1,0 +1,11 @@
+{
+  "service": "postgres",
+  "host": "your_database_host",
+  "port": 5432,
+  "database": "transactions_db",
+  "user": "your_db_user",
+  "password": "your_db_password",
+  "schemas": ["public"],
+  "schedule": "5 minutes",
+  "destination": "snowflake_staging"
+}
